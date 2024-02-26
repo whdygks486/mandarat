@@ -1,0 +1,17 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org" >
+<head>
+    <title>Hello</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+
+<body>
+<p  th:replace=~{fragments/header::header}></p>
+
+<div align="center">
+    <p>로그인성공 화면</p>
+    <a href="/"><img width="200px" th:src="@{http://localhost:9090/images/loginbutton.jpg}"></a>
+
+</div>
+</body>
+</html>
